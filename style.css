@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Zeyada&display=swap');
+.paper{
+    padding: 100px 100px;
+}
+
+body{
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:  url("IMG/BG.mp4.mp4") no-repeat fixed center;
+    background-size: 100px;
+    background-position: center center;
+}
+.paper{
+    position: absolute;
+    background-image: url('IMG/Yellow.webp');
+    background-size: 500px;
+    background-position: center center;
+    padding: 10px 20px;
+    transform: rotateZ(-5deg);
+    box-shadow: 1px 30px 50px 0px #00000080;
+
+}
+
+.paper.tulip {
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    padding: 0;
+}
+
+
+.paper.img {
+    padding: 100px;
+}
+
+.paper.paper.img p{
+    font-size: 30px;
+}
+
+img{
+    max-height: 200px;
+    width: 100%;
+    user-select: none;
+}
+
+.paper.tulip::after {
+    content: "";
+    background-image: url('IMG/tups.webp');
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+.Down-col{
+    position: absolute;
+    float: left;
+    margin-right: 700px;
+    margin-left: 6%;
+    display: flex;
+    align-items: center;
+}
+.Down-col p{
+    font-size: 18px;
+    color:gold;
+    font-weight: 400;
+    margin-right: 15px;
+}
+#icon{
+    
+    width: 80px;
+    cursor: pointer;
+}
+
+p{
+    font-family: 'Pacifico';
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    opacity: 0.;
+    user-select: none;
+}

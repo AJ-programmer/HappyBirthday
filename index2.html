@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video id="bgVideo" controls preload="true" autoplay loop muted>
+        <source src="IMG/BG.mp4.mp4" type="video/mp4">
+    </video>
+   
+    <div class="paper tulip"></div>
+
+    <div class="paper image">
+        <P> &#160  &#160  	&#127759  &#160 World  &#160	&#127759</P>
+        <img src="IMG/2.jpg">
+    </div>
+
+    <div class="paper image">
+        <p>&#160  &#160 &#160 &#128563 &#160 in the &#160 &#128563</p>
+        <img src="IMG/6.webp">
+    </div>
+     
+    <div class="paper image">
+        <p>	&#160 &#160 &#128150 &#160 Woman &#160 &#128150 </p>
+        <img src="IMG/3.jpg">
+    </div>
+    <div class="paper image">
+        <p>	&#128525 &#160 Beautiful &#160	&#128525</p>
+        <img src="IMG/4.jpg">
+    </div>
+    <div class="paper image">
+        <p>&#128563 &#160 To the most &#160 	&#128563</p>
+        <img src="IMG/5.webp">
+    </div>
+
+    <div class="paper image">
+        <p>&#129395;&#160 Happy Birthday &#160 &#129395;</p>
+        <img src="IMG/1.webp">
+    </div>
+    <div class="paper">
+        <p>&#160Either you say yes or no</p>
+        <p>&#160I'll still court you</p>
+        <p>&#160Enjoy my small gift for you</p>
+        <p>&#160Play the music then,</p>
+        <p>&#160 Drag  the   yellow paper</p>
+        <P> &#160  &#160&#160&#160	&#129321 &#160  Enjoy &#160  &#129321 &#160 </P>
+    </div>
+        <div class="Down-col">
+            <p>Click here to play</p>
+            <img src="IMG/play.png" id="icon">
+
+
+        </div>
+        <audio id="mysong">
+            <source src="IMG/Lovely.mp3" type="audio/mp3">
+        </audio>
+        <script>
+            var mysong = document.getElementById("mysong");
+            var icon = document.getElementById("icon");
+
+            icon.onclick = function(){
+                if (mysong.paused){
+                    mysong.play();
+                    icon.src = "IMG/pause.png";
+                } else{
+                    mysong.pause();
+                    icon.src= "IMG/play.png";
+                }
+            }
+        </script>
+        
+         
+    <script src="script.js"></script>
+</body>
+</html>
